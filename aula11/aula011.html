@@ -8,21 +8,21 @@
 </head>
 <body>
     <h1>Brasileiros, ou Gringos</h1>
-    nacionalidade: <input type="text" name="nacionalidade" id="nacionalidade"> nacionalidade é
-    <input type="button" value="verificar" onclick="verificar()">
+    nacionalidade: <input type="text" name="nacionalidade" id="nacionalidade"> nacionalidade é: <input type="button" value="verificar" onclick="verificar()">
+
     <div id="res">
 
     </div>
     <script>
-        function verificar{
-        var país = 'EUA' console.log (`vivendo em ${país}`);
+        function verificar (){
+        var país = 'EUA'
+        console.log(`vivendo em ${país}`)
         if (país == 'Brasil'){
-            console.log(`Brasileiro`)
+            console.log('Brasileiro')
         } else{
             console.log('Estrangeiro')
         }
-        
-            
+                
     }
         
     </script>
